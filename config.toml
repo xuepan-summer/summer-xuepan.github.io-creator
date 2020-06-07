@@ -1,0 +1,4 @@
+baseURL = "http://xuepan.xyz/"
+languageCode = "zh-Hans"
+title = "Summer's Blog"
+theme = "ananke"
