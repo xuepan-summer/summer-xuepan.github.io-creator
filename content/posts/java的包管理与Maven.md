@@ -52,7 +52,7 @@ maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓�
 
 【5】实例：
 
-![](/images/package_conflict_instance.png)
+![](/images/instance.png)
 
 因为此时既依赖了0.1版本的C包，又依赖了0.2版本的C包，所以产生了包冲突
 
