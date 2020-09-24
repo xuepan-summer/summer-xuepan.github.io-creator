@@ -12,7 +12,7 @@ draft: false
 2.传递性依赖：类依赖其他类
 
 maven的包管理解决了传递性依赖和包冲突：
-
+实现生产者-消费者(一)：Object.wait() & notify()notifyAll()
 1）传递性依赖的解决：
 
 maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓库可以找到自己想要的jar包，对应的jar包还有其pom文件，文件里会说明它又依赖了什么jar包，所以整棵依赖树都会被下载下来
@@ -65,21 +65,25 @@ maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓�
 ```xml
 <dependency>    
     <groupId>com.github.hcsp</groupId>    
-    <artifactId>test-library-a</artifactId>    
-    <version>0.4</version>    
-    <scope>compile</scope>
+    <artifactId>test-library-c</artifactId>    
+    <version>0.2</version>    
 </dependency>
 ```
 
 ② 排除掉0.1版本的C包
 
 ```xml
-<exclusions>
-    <exclusion>    
-        <groupId>com.github.hcsp<groupId>    
+<dependency>
+    <groupId>com.github.hcsp</groupId>
+    <artifactId>test-library-d</artifactId>
+    <version>0.1</version>
+    <exclusions>
+        <exclusion>
+            <groupId>com.github.hcsp</groupId>
             <artifactId>test-library-c</artifactId>
-    </exclusion>
-</exclusions>
+        </exclusion>
+    </exclusions>
+</dependency>
 ```
 
 ③ 采用IDEA的Maven Helper插件
