@@ -60,7 +60,7 @@ draft: false
 
      三种模式转换如图所示：
 
-      ![](/images/vim-vi-workmodel.png) 
+   ![](/images/vim_vi_workmodel.png)
 
      简单的编辑过程如下：
 
