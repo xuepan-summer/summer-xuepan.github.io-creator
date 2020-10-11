@@ -1,4 +1,8 @@
-baseURL = "http://xuepan.xyz/"
+#baseURL = "http://xuepan.xyz/"
+#languageCode = "zh-Hans"
+#theme = "ananke"
+
+baseURL = "https://xuepan-summer.github.io/summer-xuepan.github.io/"
 languageCode = "zh-Hans"
 title = "Summer's Blog"
-theme = "ananke"
+theme = "dimension"
