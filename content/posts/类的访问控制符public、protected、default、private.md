@@ -11,4 +11,4 @@ draft: false
 
 具体如下图所示：
 
-![](/images/private&protected&public.png)
+![](../img/private&protected&public.png)

@@ -60,10 +60,9 @@ draft: false
 
      三种模式转换如图所示：
 
-   ![](/images/vim_vi_workmodel.png)
-
+   ![img下的](../img/collection.png)
+   
      简单的编辑过程如下：
-
      + vi 文件名
      + 按i进入编辑模式
      + 进行内容编辑

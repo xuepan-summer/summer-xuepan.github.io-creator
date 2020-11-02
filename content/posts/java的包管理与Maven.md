@@ -37,11 +37,11 @@ maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓�
 
 法1：看右侧maven的dependencies
 
-![](/images/way1_dependencies.png)
+![](../img/way1_dependencies.png)
 
 法2：命令行里执行mvn dependency:tree 看到的是maven解决冲突之后的结构
 
-![](/images/way2.png)
+![](../img/way2.png)
 
 【4】
 解决冲突的原则：
@@ -52,7 +52,7 @@ maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓�
 
 【5】实例：
 
-![](/images/instance.png)
+![](../img/instance.png)
 
 因为此时既依赖了0.1版本的C包，又依赖了0.2版本的C包，所以产生了包冲突
 

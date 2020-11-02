@@ -3,7 +3,7 @@ title: "Collection体系的常用类及其背后的数据结构"
 date: 2020-06-28T16:20:17+08:00
 draft: false
 ---
-![](/images/collection.png)
+![](../img/collection.png)
 
 集合有两个基本接口：Collection和Map
 
