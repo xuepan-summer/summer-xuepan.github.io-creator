@@ -60,7 +60,7 @@ draft: false
 
      三种模式转换如图所示：
 
-   ![img下的](../img/collection.png)
+   ![](../img/collection.png)
    
      简单的编辑过程如下：
      + vi 文件名
