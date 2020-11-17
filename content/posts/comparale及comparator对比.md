@@ -1,5 +1,5 @@
 ---
-title: "Comparale及Comparator对比"
+title: "Comparable及Comparator对比"
 date: 2020-11-16T18:21:50+08:00
 draft: false
 ---
