@@ -1,5 +1,5 @@
 ---
-title: "Java的包管理与Maven"
+title: "解决Maven包冲突问题"
 date: 2020-06-26T17:52:27+08:00
 draft: false
 ---
@@ -12,7 +12,7 @@ draft: false
 2.传递性依赖：类依赖其他类
 
 maven的包管理解决了传递性依赖和包冲突：
-实现生产者-消费者(一)：Object.wait() & notify()notifyAll()
+
 1）传递性依赖的解决：
 
 maven会告诉jvm到底去哪找，根据groupId/artifactId/version去中央仓库可以找到自己想要的jar包，对应的jar包还有其pom文件，文件里会说明它又依赖了什么jar包，所以整棵依赖树都会被下载下来

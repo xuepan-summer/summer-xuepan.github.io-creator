@@ -1,5 +1,5 @@
 ---
-title: "ArrayList扩容"
+title: "ArrayList扩容之源码剖析"
 date: 2020-11-16T18:17:35+08:00
 draft: false
 ---
